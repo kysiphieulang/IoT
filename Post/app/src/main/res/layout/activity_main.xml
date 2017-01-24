@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtAddress"
+        android:hint="Web address"
+        android:text="http://luutruthongtin.net46.net/post.php"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtsend"
+        android:layout_below="@+id/txtAddress"
+        android:hint="Content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Send"
+        android:id="@+id/sendButton"
+        android:layout_below="@+id/txtsend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Send data"/>
+
+    <EditText
+        android:id="@+id/txtcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/sendButton"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btGet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcontent"
+        android:text="Get data"/>
+
+    <Button
+        android:id="@+id/btChatOpen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btGet"
+        android:text="Open chat"/>
+
+</RelativeLayout>

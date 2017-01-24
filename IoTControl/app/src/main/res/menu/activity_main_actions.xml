@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <!-- Search / will display always -->
+    <item android:id="@+id/CheckConnection"
+        android:title="Check Connection"
+        android:showAsAction="ifRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Location Found -->
+    <item android:id="@+id/ButtonSetting"
+        android:title="Button Setting"
+        android:showAsAction="ifRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Refresh -->
+    <item android:id="@+id/About"
+        android:title="About"
+        android:showAsAction="ifRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</menu>
